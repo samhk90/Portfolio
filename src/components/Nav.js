@@ -5,9 +5,9 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid">
-        <a className="navbar-brand " id='navtext' href="/">
+        <Link className="navbar-brand " id='navtext' to="/">
           Md.Samee Shaikh
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
