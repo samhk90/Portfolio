@@ -1,9 +1,11 @@
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg ">
       <div className="container-fluid">
-        <a className="navbar-brand px-1" id='navtext' to="/">
+        <a className="navbar-brand " id='navtext' href="/">
           Md.Samee Shaikh
         </a>
         <button
@@ -19,18 +21,18 @@ export default function Nav() {
         </button>
         <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul className="navbar-nav">
-            <li className="nav-item mx-3">
-              <a className="nav-link" id='navtext' aria-current="page" to="/">
+            <li className="nav-item ">
+              <Link className="nav-link" id='navtext' aria-current="page" to="/">
                 Home
-              </a>
+              </Link>
             </li>
-            <li className="nav-item mx-3">
-              <a className="nav-link" id='navtext' aria-current="page" to="/about">
+            <li className="nav-item ">
+              <Link className="nav-link" id='navtext' aria-current="page" to="/about">
                 About
-              </a>
+              </Link>
             </li>
-            <li className="nav-item mx-3">
-              <a className="nav-link" id='navtext' aria-current="page" to="/contact">
+            <li className="nav-item ">
+              <a className="nav-link" id='navtext' aria-current="page" href="/contact">
                 Contact
               </a>
             </li>
