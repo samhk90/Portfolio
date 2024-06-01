@@ -32,6 +32,11 @@ export default function Nav() {
               </Link>
             </li>
             <li className="nav-item ">
+              <Link className="nav-link" id='navtext' aria-current="page" to="/resume">
+                Resume
+              </Link>
+            </li>
+            <li className="nav-item ">
               <a className="nav-link" id='navtext' aria-current="page" href="/contact">
                 Contact
               </a>

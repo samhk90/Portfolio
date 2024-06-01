@@ -72,9 +72,10 @@ const Contact = () => {
           {status && <p>{status}</p>}
         </div>
         <div className="col-sm-6 mx-2 contact-details">
+            <h2>Md.Samee Shaikh</h2>
           <p>Email: mdsami9022@gmail.com</p>
           <p>Phone: +91 9022094510</p>
-          <p>Address: Pune,India</p>
+          <p>Address: Pune|India</p>
         </div>
       </div>
     </div>
