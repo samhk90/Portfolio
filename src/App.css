@@ -145,7 +145,22 @@ body{
   flex-wrap: wrap;
   padding: 0 5px;
   }
+  @media (max-width: 768px) {
+    .skills-container {
+      flex-direction: column;
+      flex-wrap: nowrap;
+        }
+    
+    .skill-card {
+      gap: 5px;
+      align-items: flex-start;
+    }
+    .skill-card img{
+      width: 45px;
+        height: 45px;
+    }
 
+  }
   .footer {
     background-color: #161B2F;
     color: white;
