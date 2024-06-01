@@ -97,6 +97,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.btitle{
+  font-size: 3.5rem;
+}
+.btext{
+  font-size: 2.4rem;
+}
 @media screen and (max-width: 768px) {
     .banner{
         height: 100vh;
@@ -398,4 +404,61 @@ li {
   justify-content: space-between;
   margin-top: 20px;
   flex-direction: column;
+}
+@media (max-width: 768px) {
+  .resume {
+    flex-direction: column;
+  }
+  
+  .left, .right {
+    width: 100%;
+  }
+  
+  .button-box {
+    text-align: center;
+  }
+}
+/* Ensure the toggle button is on the right */
+.navbar-toggler {
+  margin-left: auto;
+}
+
+/* Customize the navbar links */
+.nav-link {
+  color: #fff; /* Change this to your desired color */
+}
+
+/* Change the color of the navbar links on hover */
+.nav-link:hover {
+  color: #6b8cbf; /* Change this to your desired hover color */
+}
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 10px;
+  }
+
+  .contact-details,
+  .contact-form {
+    padding: 10px;
+    margin: 5px 0;
+  }
+
+  .contact-details {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 8px;
+  }
+
+  .btn-primary {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+  }
 }
