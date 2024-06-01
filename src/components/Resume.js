@@ -3,8 +3,8 @@ import React from 'react';
 const handleDownloadResume = () => {
     // Create a temporary link element
     const link = document.createElement('a');
-    link.href = '../src/Resume.pdf'; 
-    link.download = 'Resume.pdf'; // Specify the filename for download
+    link.href = 'https://drive.google.com/file/d/12rHTszQIlEcfyG3DzI0EYa49E57azIaa/view?usp=sharing'; 
+    link.download = 'Resume(2).pdf'; // Specify the filename for download
     document.body.appendChild(link);
     link.click(); // Simulate a click event to trigger the download
     document.body.removeChild(link); // Clean up by removing the temporary link element
@@ -22,7 +22,7 @@ const Resume = () => {
   return (
     <div className="container-fluid p-5">
       <div className="resume">
-      <div className="left">
+      <div className="col-md-6 left">
   <div className="info zoom-in glass-effect">
     <h1>Md.Samee Shaikh</h1>
     <p>Full Stack Web Developer</p>
@@ -66,20 +66,6 @@ academic settings to real-world projects</li>
               <li>Git / Github</li>
               <li>Docker</li>
               <li>Mongo DB, MySQL, PostgreSQL</li>
-            </ul>
-          </div>
-          
-          <div className="soft-skills">
-            <h1 className='h1 mb-3'>Soft Skills</h1>
-            <ul>
-                <li>Leadership</li>
-              <li>Effective communication</li>
-              <li>Problem solving</li>
-              <li>Adaptability</li>
-              <li>Ability to learn quickly</li>
-              <li>Attention to details</li>
-              <li>Team work & collaboration</li>
-              <li>Critical thinking</li>
             </ul>
           </div>
           
